@@ -68,7 +68,7 @@ Cloning and Compilation:
 
 ```sh
 # Clone the source code from github
-$ https://github.com/backpackercoin/backpackercoin.git
+$ https://github.com/backpackercoin577/backpackercoin.git
 
 # Give read write and execute permissions to backpackercoin directory
 $ sudo chmod -R 777 backpackercoin
