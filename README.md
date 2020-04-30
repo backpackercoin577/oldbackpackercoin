@@ -56,8 +56,6 @@ $ sudo  apt-get install libdb4.8-dev libdb4.8++-dev -y
 # upnp for firewall-jumping support
 $ sudo  apt-get install libminiupnpc-dev -y
 
-# ZMQ
-$ sudo  apt-get install libzmq3-dev -y
 
 # QT
 $ sudo  apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler -y
