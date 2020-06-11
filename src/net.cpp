@@ -1126,23 +1126,20 @@ void MapPort()
 }
 #endif
 
-
-
-
-
-
-
-
-
 // DNS seeds
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
-static const char *strDNSSeed[][2] = {
-    {"134.209.177.212", "134.209.177.212"},
-    {"157.245.200.239", "157.245.200.239"},
-    {"68.183.200.208", "68.183.200.208"},
-    {"167.71.8.90", "167.71.8.90"},
+static const char *strDNSSeed[][2] = {    
+    {"62.171.180.53", "62.171.180.53"},
+    {"62.171.179.253", "62.171.179.253"},
+    {"62.171.179.249", "62.171.179.249"},
+    {"62.171.179.218", "62.171.179.218"},
+    {"62.171.180.37", "62.171.180.37"},
+    {"62.171.179.14", "62.171.179.14"},
+    {"161.97.67.13", "161.97.67.13"},
+    {"62.171.179.119", "62.171.179.119"},
+
 };
 
 void ThreadDNSAddressSeed(void* parg)
@@ -1200,20 +1197,10 @@ void ThreadDNSAddressSeed2(void* parg)
     printf("%d addresses found from DNS seeds\n", found);
 }
 
-
-
-
-
-
-
-
-
-
-
-
 unsigned int pnSeed[] =
 {
-    0xd4b1d186,0xefc8f59d,0xd0c8b744,0x5a0847a7,
+    0x35b4ab3e, 0xfdb3ab3e, 0xf9b3ab3e, 0xdab3ab3e,
+    0x25b4ab3e, 0x0eb3ab3e, 0x0d4361a1, 0x77b3ab3e
     
 };
 
