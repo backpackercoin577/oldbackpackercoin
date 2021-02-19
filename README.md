@@ -25,6 +25,14 @@ Backpackercoin
 | Block 3382639 to 4382638  | Reward 2 BPC per Block |
 | Block 4382639 to 5715975  | Reward 1.5 BPC per Block |
 
+## Block Explorers
+
+Backpackercoin currently has two explorers.
+
+| Explorer | Link |
+| ------ | ------ |
+| Primary Explorer | [https://bpcexplorer.com](https://bpcexplorer.com/) |
+| Secondary Explore | [https://explorer.bpcexplorer.com](https://explorer.bpcexplorer.com/) |
 
 # Dependencies & Compilation
 
